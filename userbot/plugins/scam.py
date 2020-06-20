@@ -18,7 +18,7 @@ from userbot.utils import admin_cmd
 from userbot import CMD_HELP
 
  
-@borg.on(admin_cmd(pattern="fake ?(.*)"))
+@borg.on(admin_cmd(pattern="scam ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -28,13 +28,11 @@ async def _(event):
     if input_str:
         action = input_str
     async with borg.action(event.chat_id, action):
-        await asyncio.sleep(86400)  # type for 10 seconds
-        
-        
+        await asyncio.sleep(86400)  # type for 10 seconds        
         
 CMD_HELP.update({
-    "fake":
-    ".fake (action name)\
-    \nUsage: Type .fake (action name) this shows the fake action in the group  the actions are typing contact ,game, location, voice, round, video,photo,document.\
+    "scam":
+    ".scam <action> \
+    \nUsage: Type .scam (action name) this shows the fake action in the group  the actions are typing ,contact ,game, location, voice, round, video,photo,document, cancel.\
     "
 })            

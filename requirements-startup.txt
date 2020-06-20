@@ -12,6 +12,7 @@ csvfaker
 DateTime
 python-dotenv
 emoji
+geopy
 gitpython
 google-api-python-client==1.7.11
 google_images_download==2.8.0
@@ -54,6 +55,7 @@ speedtest-cli
 spotify_token
 sqlalchemy
 telegraph
+tswift
 urbandict
 wikipedia
 youtube-dl
