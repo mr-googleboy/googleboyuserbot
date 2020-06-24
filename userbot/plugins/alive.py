@@ -21,8 +21,8 @@ async def amireallyalive(alive):
                      f"`☞Python: {python_version()}\n`"
                      f"☞Bot Creater : #Mr_Googleboy\n"
                      f"`☞My peru owner`: {DEFAULTUSER}\n\n"
-                     "☞Join [Channel](https://t.me/super_botz) For Latest Updates\n"
-                     "[Deploy this super bot](https://github.com/Ankith09/ankithuserbot)"
+                     "☞Join [Channel](https://t.me/feedbuzzme) For Latest Updates\n"
+                     "[Deploy this super bot](https://github.com/mr-googleboy/googleboyuserbot)"
                     )
     
     
