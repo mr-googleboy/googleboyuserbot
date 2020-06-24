@@ -70,6 +70,7 @@ DC2 : Amsterdam, NL
 DC3 : Miami FL, USA
 DC4 : Amsterdam, NL
 DC5 : Singapore, SG
+all info by [Mr_Googleboy](https://t.me/Mr_GoogleboY)
 """.format(
         user_id,
         user_id,
