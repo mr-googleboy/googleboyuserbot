@@ -82,9 +82,9 @@ async def set_not_afk(event):
         except Exception as e:  # pylint:disable=C0103,W0703
             await borg.send_message(  # pylint:disable=E0602
                 event.chat_id,
-                "`My Boss is back` " + \
+                "`My Master is online now`" + \
                 "You are allowed to talk now.." + \
-                "only if your member of @feednuzzme.\n\n `{}`".format(str(e)),
+                "only if your member of > @feedbuzzme < \n\n 
                 reply_to=event.message.id,
                 silent=True
             )
