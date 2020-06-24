@@ -79,12 +79,12 @@ async def set_not_afk(event):
                 Config.PRIVATE_GROUP_BOT_API_ID,  # pylint:disable=E0602
                 "Set AFK mode to False"
             )
-       except Exception as e:  # pylint:disable=C0103,W0703
+        except Exception as e:  # pylint:disable=C0103,W0703
             await borg.send_message(  # pylint:disable=E0602
                 event.chat_id,
-                "`My Master is back ` " + \
-                "You are allowed to talk now.." + \
-                "only if your member of > @feedbuzzme < \n\n `{}`".format(str(e)),
+                " `My Master is online now!` " + \
+                "You got approval, " + \
+                "your now allowed to talk with my Master \n\n `{}`".format(str(e)),
                 reply_to=event.message.id,
                 silent=True
             )
