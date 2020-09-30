@@ -14,8 +14,8 @@ CACHE = {}
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "**No name set yet nibba, check pinned message in** @feedbuzzmme"
 USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` **Now GTFO, i'm playing minecraft** "
-USER_BOT_NO_WARN = ("[---------- '[Think twice,Code once!!]' --------- \n──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀ \n----------------------------------------------- \n>>My Master is on all platforms with username [ @Mr_Googleboy ] you can try there,maybe you get reply soon if he's online](tg://user?id=1035034432)\n\n"
-                    "`Hello, this is  CyberSecurity Service.You have found your way here to my master,`"
+USER_BOT_NO_WARN = ("[---------- '[Think twice,Code once!!]' --------- \n──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀ \n----------------------------------------------- \n"
+                    "`Hello, this is Ultra Level CyberSecurity Service for peru users only.You have found your way here to my master,`"
                     f"{DEFAULTUSER}'s` inbox.\n\n"
                     "Leave your name,reason and 10k$ and hopefully you'll get a reply within 2 light years.`\n\n"
                     "** Send** `/start` ** so that we can decide why you're here.**")
